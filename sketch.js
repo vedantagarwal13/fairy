@@ -53,6 +53,9 @@ if(keyDown(LEFT_ARROW)){
 if(keyDown(DOWN_ARROW)){
 	star.y=star.y+4;
 }
+if(star.y>470){
+	star.y=470;
+}
 
 
 
